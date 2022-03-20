@@ -20,8 +20,8 @@ function App() {
       <div id="content-wrapper" className="d-flex flex-column">
         <div id="content">
           <Topbar/>
-          {path === '/dashboard' || path === '/' ? <Dashboard/> : ''}
-          {path === '/student/register' ? <Register/> : ''}
+          {path == '/dashboard' || path == '/' ? <Dashboard/> : ''}
+          {path == '/student/register' ? <Register/> : ''}
         </div>
         <Footer/>
       </div>
