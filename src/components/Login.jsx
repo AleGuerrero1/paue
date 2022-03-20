@@ -22,7 +22,7 @@ class Login extends React.Component {
   handleSubmit(event) {
     if (this.state.email === 'ale@gmail.com' && this.state.password === '123456') {
       localStorage.setItem('login', true); 
-      window.location.href = '/paue/dashboard';
+      window.location.href = '/dashboard';
     }
     event.preventDefault();
   }

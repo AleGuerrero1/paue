@@ -12,7 +12,7 @@ function App() {
   const login = localStorage.getItem("login");
   if (login === 'false') {
     console.log(login);
-    window.location.href = '/paue/login';
+    window.location.href = '/login';
   }
   return (
     <div className="App" id="wrapper">
@@ -20,8 +20,8 @@ function App() {
       <div id="content-wrapper" className="d-flex flex-column">
         <div id="content">
           <Topbar/>
-          {path == '/paue/dashboard' || path == '/' ? <Dashboard/> : ''}
-          {path == '/paue/student/register' ? <Register/> : ''}
+          {path == '/dashboard' || path == '/' ? <Dashboard/> : ''}
+          {path == '/student/register' ? <Register/> : ''}
         </div>
         <Footer/>
       </div>
