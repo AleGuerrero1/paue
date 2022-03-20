@@ -7,7 +7,7 @@ class Logout extends React.Component {
       }
     handleSubmit(event) {
         localStorage.setItem('login', false); 
-        window.location.href = '/login';
+        window.location.href = '/paue/login';
         event.preventDefault();
     }
     render() {
