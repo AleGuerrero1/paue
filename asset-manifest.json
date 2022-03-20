@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/paue/static/css/main.073c9b0a.css",
+    "main.js": "/paue/static/js/main.915b1ba6.js",
+    "index.html": "/paue/index.html",
+    "main.073c9b0a.css.map": "/paue/static/css/main.073c9b0a.css.map",
+    "main.915b1ba6.js.map": "/paue/static/js/main.915b1ba6.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.073c9b0a.css",
+    "static/js/main.915b1ba6.js"
+  ]
+}
